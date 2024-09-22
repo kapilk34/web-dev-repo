@@ -1,0 +1,750 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.firstrectangle{
+    height:30px;
+    background: rgb(66, 65, 65);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.firstrectangle p{
+    font-size: small;
+    color: azure;
+    
+}
+nav{
+height: 60px;
+background-color: black;
+display: flex;
+justify-content: space-around;
+align-items: center;
+}
+.logo img {
+    height:30px ;
+    
+}
+.list{
+    display: flex;
+    gap: 20px;
+}
+.list a{
+    color: rgb(247, 183, 6);
+    text-decoration: none;
+}
+.list>li>a>button{
+    background:none;
+    color:white;
+    border:10px;
+    border-color: white;
+    border-radius: 5px;
+}
+video{
+    height:100%;
+    width:100%;
+    position:absolute;
+    top:0;
+    left:0;
+    object-fit: cover;
+    z-index: -1;
+}
+.empower{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.empower img{
+    height: 60px;
+    margin-top: 30px;
+}
+.aidriven p{
+    color: orange;
+    font-size: 25px;
+}
+.aidriven{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap:20px;
+    color:orange;
+
+}
+.aidriven>img{
+    height:20px;
+}
+.main{
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+    color:antiquewhite;
+    margin-top: 400px;
+
+}
+.main>p{
+    color:white;
+}
+.main>a{
+    color:orange;
+    text-decoration: underline;
+}
+
+.futuretech{
+    position:relative;
+    background: url(./Group\ 1000003043\ \(1\).png);
+    background-repeat: no-repeat ;
+    background-size: cover;
+    /* background-blend-mode: multiply;  */
+    background-color: rgb(2, 2, 2);
+    height:20vh;
+    /* margin-top:40px; */
+}
+.futuretech>p{
+    color:white;
+    margin-left:60px;
+    margin-top:40px;
+    font-family: monospace;
+}
+.futuretech>h2{
+    color:orange;
+    margin-left:60px;
+    margin-top: 40px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+.rec{
+    background: black;
+}
+.future>p{
+    color:white;
+}
+.stay>p{
+    color:white;
+}
+.rectangle{
+    position:absolute;
+    border-radius:10px;
+    background-color:#262626
+}
+.text{
+    position:relative;
+}
+.rect{
+    position:absolute;
+    margin-left:20px;
+    padding-top: 20px;
+}
+.over{
+    color:white;
+    font-weight: bolder ;
+    margin-top: -35px;
+    margin-left: 100px;
+}
+.model{
+    color:white;
+    margin-top: 10px;
+    margin-left: 100px;
+}
+.rocket{
+    position: relative;
+    margin-left:45px;
+    padding-top: 38px;
+}
+.rectangle:hover{
+    background-color: #FFA901;
+}
+.over:hover,.model:hover{
+    color:black;
+}
+.secondrectangle{
+    margin-top:60px;
+    position:absolute;
+    border-radius:10px;
+    background-color:#262626
+}
+.secondrect{
+    position:relative;
+    padding-top: 80px;
+    margin-left: 20px;
+}
+.truck{
+    position:relative;
+    margin-top: -64px;
+    margin-left: 43px;
+}
+.ai{
+    color:white;
+    font-weight: bolder ;
+    margin-top: -40px;
+    margin-left: 100px;
+}
+.ar{
+    color:white;
+    margin-top: 10px;
+    margin-left: 100px;
+    font-size: 14px;
+}
+.secondrectangle:hover{
+    background-color: #FFA901;
+}
+.ai:hover,.ar:hover{
+    color:black;
+}
+.thirdrectangle{
+    margin-top:60px;
+    position:relative;
+    border-radius:10px;
+    background-color:#262626;
+    margin-left:-50px;
+    margin-top: 10%;
+}
+.thirdrectangle:hover{
+    background-color: #FFA901;
+}
+.thirdrect{
+    position:absolute;
+    margin-top: -110px;
+    margin-left:-2em;
+    background-color: grey;
+    border-radius: 13px;
+}
+.trending{
+    position:absolute;
+    margin-top: -6%;
+    margin-left: -10px;
+}
+.sale{
+    position: absolute;
+    color:white;
+    font-weight: bolder ;
+    margin-top: -95px;
+    margin-left: 80px;
+}
+.automation:hover{
+    color:black;
+}
+.sale:hover{
+    color:black;
+}
+/* .trending:hover{
+    background-image: #FFA901;
+} */
+.automation{
+    position:absolute;
+    color:white;
+    margin-top: -65px;
+    margin-left: 80px;
+    font-size: 14px;
+}
+.forthrectangle{
+    margin-top:20px;
+    position:relative;
+    border-radius:10px;
+    background-color:#262626;
+    margin-left:-50px;
+}
+.forthrect{
+    position:absolute;
+    margin-top: -107px;
+    margin-left:-2em;
+    background-color: grey;
+    border-radius: 13px;
+}
+.headphone{
+    position:absolute;
+    margin-top:-88px;
+    margin-left: -10px;
+}
+.cust{
+    margin-top:-90px;
+    position:absolute;
+    color:white;
+    font-weight: bolder;
+    margin-left: 90px;
+}
+.omer{
+    margin-left:90px;
+    position:absolute;
+    color:white;
+    margin-top: -60px;
+    font-size: 13px;
+}
+.secondgrid{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    place-items: center;
+}
+.fifthrectangle{
+    margin-top:60px;
+    position:relative;
+    border-radius:10px;
+    background-color:#262626;
+    margin-left:70px;
+    margin-top: 10%;
+}
+.fifthrect{
+    position:absolute;
+    padding-top: 80px;
+    margin-left: 90px;
+    margin-top: -180px;
+}
+.secondtruck{
+    position:absolute;
+    margin-top: -70px;
+    margin-left: 110px;
+}
+.secai{
+    color:white;
+    font-weight: bolder ;
+    margin-top: -55px;
+    margin-left: 100px;
+}
+.secar{
+    color:white;
+    margin-top: 10px;
+    margin-left: 100px;
+    font-size: 14px;
+}
+.sixthrectangle{
+    margin-top:60px;
+    position:relative;
+    border-radius:10px;
+    background-color:#262626;
+    margin-left:70px;
+    margin-top: 5%;
+}
+.sixthrect{
+    position:absolute;
+    padding-top: 80px;
+    margin-left: 90px;
+    margin-top: -180px;
+}
+.thirdtruck{
+    position:absolute;
+    margin-top: -70px;
+    margin-left: 110px;
+}
+.thirdai{
+    color:white;
+    font-weight: bolder ;
+    margin-top: -55px;
+    margin-left: 100px;
+}
+.thirdar{
+    color:white;
+    margin-top: 10px;
+    margin-left: 100px;
+    font-size: 14px;
+}
+.sevenrectangle{
+    position:relative;
+    border-radius:10px;
+    background-color:#262626;
+    margin-left:1%;
+    margin-top: 11%;
+}
+.sevenrect{
+    position: absolute;
+    margin-top: -7%;
+    margin-left: 20px;
+    background-color:grey;
+    border-radius: 10px;
+}
+.seventrending{
+    position:absolute;
+    margin-top: -5.5%;
+    margin-left: 3%;
+}
+.sevenrectangle:hover{
+    background-color: #FFA901;
+}
+.sevensale{
+    color:white;
+    position: absolute;
+    margin-left: 9%;
+    margin-top:-6%;
+}
+.sevenautomation{
+    color:white;
+    position: absolute;
+    margin-left: 9%;
+    margin-top:-4%;
+    font-size: 14px;
+}
+.eightrectangle{
+    position:relative;
+    margin-top:6%;
+    margin-left: 1%;
+    background-color: #262626;
+    border-radius:10px;
+}
+.eightrect{
+    position: absolute;
+    margin-top: -7%;
+    margin-left: 20px;
+    background-color:grey;
+    border-radius: 10px;
+}
+.eighttreading{
+    position: absolute;
+    margin-top: -5.5%;
+    margin-left:2.8%;
+}
+
+
+
+.waveimage{
+    position: relative;
+    background: url(./abstract-wave-dots-blue-purple-tones-equalizer-music-3d-rendering\ 1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: multiply; 
+    background-color:  gray;
+    width:100%;
+    height:60vh;
+    padding-top:5px;
+    z-index: -1;
+}
+.waveimage>h4{
+    color:white;
+    font-size: 20px;
+    font-family:'Times New Roman', Times, serif;
+    margin-top: 50px;
+    margin-left:60px;
+}
+.header{
+    margin-top: 10px;
+}
+.header>img{
+    height:70px;
+    margin-left:60px;
+}
+.header>p{
+    color:orange;
+    margin-left:5px;
+    font-size: 30px;
+}
+.dis{
+    color:white;
+    margin-left:60px;
+    margin-top:15px;
+
+}
+.hotpoints{
+    margin-top:20px;
+    margin-left:60px;
+}
+.header{
+    display:flex;
+    flex-direction: row;
+}
+.sss{
+    display:flex;
+    flex-direction:row;
+    margin-top:10px;
+
+}
+.second{
+    display:flex;
+    flex-direction:row;
+    color:white;
+    margin-top:10px;
+}
+.third{
+    display:flex;
+    flex-direction:row;
+    color:white;
+    margin-top:10px;
+}
+.robot{
+    height:400px;
+    width:1519px;
+    background: black;
+}
+.mainpart{
+    display: flex;
+}
+.robotimage>img{
+    height:400px;
+    width:550px;
+}
+.robottext>h3{
+    color:white;
+    font-size:20px;
+    margin-top:100px;
+    margin-left:100px;
+}
+.robottext>h2{
+    color:orange;
+    margin-left:100px;
+    margin-top:10px;
+    font-size: 40px;
+}
+.robottext>p{
+    color:white;
+    margin-left:100px;
+    margin-top:20px;
+}
+.percentages{
+    display:flex;
+}
+.percentages>p{
+    color:orange;
+    margin-left:100px;
+    margin-top:50px;
+}
+
+.pricing{
+    position: relative;
+    background-image: url(./abstract-wave-dots-blue-purple-tones-equalizer-music-3d-rendering\ 1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: multiply; 
+    background-color:  rgba(238, 255, 0, 0.69);
+    width:100%;
+    height:80vh;
+    padding-top:5px;
+    z-index: -1;
+}
+.header>h2{
+    color:orange;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 750px;
+    margin-top:30px;
+}
+.mainbody{
+    display:flex;
+    margin-left:70px;
+    margin-right:70px;
+    margin-top:20px;
+    margin-bottom:30px;
+}
+.subheading{
+    width:400px;
+}
+.subheading>h2{
+    color:orange;
+}
+.subheading>p{
+    color:white;
+    margin-top:20px;
+}
+.essential>img{
+    height:230px;
+    margin-left:30px;
+}
+.pro>img{
+    height:230px;
+    margin-left:30px;
+}
+.premium>img{
+    height:460px;
+    margin-left:30px;
+}
+/* .iconsgrid{
+    background: black;
+    height:500px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.iconrectangle{
+    background: rgb(0, #FFBA348A, #FFA800);
+    height:80px;
+    width:60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.iconimage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     height:50px;
+    width:30px;
+}
+.iconimage>img{
+    height:50px;
+    width:60px;
+}
+.iconimage>p{
+    color:#805C18;
+    
+} */
+
+.freerectangle{
+    background:linear-gradient(90deg,rgb(205, 139, 17),black,black);
+    height:250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.data>h2{
+    color: white;
+    font-size: 40px;
+    position:relative;
+    margin-left: 55px;
+}
+.data>p{
+    color:white;
+}
+.data>button{
+    background: #FFA800;
+    height:40px;
+    width:140px;
+    border-radius: 10px;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+/* .appconnection{
+    background: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contant>h2{
+    color:white;
+    font-size: 40px;
+}
+.contant>p{
+    color:white;
+    margin-right: 20px;
+}
+.applogoes{
+    height:60px;
+    width: 60px;
+    margin-left: 40px;
+}
+.circle{
+    height:80px;
+    width:80px;
+} */
+
+.contact{
+    background: black;
+}
+
+.contact>h2{
+    color:orange;
+    font-size: 35px;
+    position: relative;
+    margin-left: 680px;
+    justify-content: space-around;
+}
+.details1{
+    color:white;
+}
+.details1>h3{
+    color:orange;
+    margin-left:350px;
+    margin-top: 50px;
+}
+.details1>input{
+    width:800px;
+    height:30px;
+    color:white;
+    margin-left:350px;
+    margin-top: 10px;
+    background: none;
+    border: 2px;
+    border-style: dotted;
+    border-radius: 5px;
+    border-color: orange;
+}
+.details1>p{
+    margin-left:350px;
+    margin-top: 5px;
+}
+.details2>h3{
+    color:orange;
+    margin-left:350px;
+    margin-top: 30px;
+}
+.details2>input{
+    width:800px;
+    height:30px;
+    color:white;
+    margin-left:350px;
+    margin-top: 10px;
+    background: none;
+    border: 2px;
+    border-style: dotted;
+    border-radius: 5px;
+    border-color: orange;
+}
+.details2>p{
+    margin-left:350px;
+    margin-top: 5px;
+    color:white;
+}
+.details3>h3{
+    color:orange;
+    margin-left:350px;
+    margin-top: 30px;
+}
+.details3>input{
+    width:800px;
+    height:30px;
+    color:white;
+    margin-left:350px;
+    margin-top: 10px;
+    background: none;
+    border: 2px;
+    border-style: dotted;
+    border-radius: 5px;
+    border-color: orange;
+}
+.details3>p{
+    margin-left:350px;
+    margin-top: 5px;
+    color:white;
+}
+.button{
+    margin-left:700px; 
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background: orange;
+    height:40px;
+    width:130px;
+    border-radius: 5px;
+}
+.footer{
+    background: black;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.footerlogo>img{
+    height:70px;
+    width:150px;
+    margin:100px;
+}
+.footercontaint1{
+    color:white;
+    margin-left:200px;
+}
+.footercontaint1>ul>li{
+    text-decoration: none;
+}
+.footercontaint2{
+    color:white;
+    margin-left:80px;
+}
+.footercontaint3{
+    color:white;
+    margin-left:80px;
+}
+
+
+
+
+
+
