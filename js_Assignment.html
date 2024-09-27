@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Parking Stay Time</h2>
+    <p>Enter Start Time (H1 M1) and End Time (H2 M2):</p>
+    <input type="number" id="h1" placeholder="H1"> 
+    <input type="number" id="m1" placeholder="M1"> 
+    <input type="number" id="h2" placeholder="H2"> 
+    <input type="number" id="m2" placeholder="M2">
+    <button onclick="calculateParkingTime()">Calculate Parking Time</button>
+    <p id="parkingTime"></p>
+    <script>
+        function calculateParkingTime() {
+            let h1 = parseInt(document.getElementById('h1').value);
+            let m1 = parseInt(document.getElementById('m1').value);
+            let h2 = parseInt(document.getElementById('h2').value);
+            let m2 = parseInt(document.getElementById('m2').value);
+
+            const startMinutes = h1 * 60 + m1;
+            const endMinutes = h2 * 60 + m2;
+            let totalMinutes = endMinutes - startMinutes;
+
+            if (totalMinutes < 0) {
+                totalMinutes += 24 * 60; // Adjust for times crossing midnight
+            }
+
+            const hours = Math.floor(totalMinutes / 60);
+            const minutes = totalMinutes % 60;
+            document.getElementById('parkingTime').innerText = `Total time stayed: ${hours} hour(s) and ${minutes} minute(s).`;
+        }
+
+    </script>
+
+
+//passing student
+let scr= [45, 67, 89, 23, 76, 50, 90]; 
+let passingScore = 50;                   
+let passCount = 0;                       
+
+for (let i = 0; i < scr.length; i++) {
+    if (scr[i] >= passingScore) {    
+        passCount++;                   
+    }
+}
+
+console.log("Number of students passed: " + passCount); // Print the count of passing students
+
+//Topper score
+// let scores = [45, 67, 89, 23, 76, 500, 90]; // example scores array
+// console.log("Topper's score: " + Math.max(...scores));//method 1
+// console.log(Math.max(45,67,89,23,76,500,90));//method 2
+let scores = [45, 67, 89, 23, 76, 50, 90]; 
+let highestScore = scores[0];
+for (let i = 1; i < scores.length; i++) {
+    if (scores[i] > highestScore) {
+        highestScore = scores[i]; 
+    }
+}
+
+console.log("Topper's score: " + highestScore);
+
+
+
+//Grand total of all employee
+let salaries = [50000, 60000, 55000, 75000, 62000]; 
+let grandTotal = 0; 
+
+for (let i = 0; i < salaries.length; i++) {
+    grandTotal += salaries[i]; 
+}
+
+console.log("Grand total of all employee salaries: " + grandTotal);
+
+//purchase and sale
+let transactions = [
+    {purchase: 100, sale: 150},  
+    {purchase: 200, sale: 180},
+    {purchase: 120, sale: 130},
+    {purchase: 50, sale: 70}
+];
+
+for (let i = 0; i < transactions.length; i++) {
+    let purchase = transactions[i].purchase;
+    let sale = transactions[i].sale;
+    
+    if (sale > purchase) {
+        console.log(Transaction ${i + 1}: Profit of ${sale - purchase});
+    } else if (sale < purchase) {
+        console.log(Transaction ${i + 1}: Loss of ${purchase - sale});
+    } else {
+        console.log(Transaction ${i + 1}: No profit, no loss);
+    }
+}
+
+//odd location element only
+let elements = [10, 20, 30, 40, 50, 60, 70]; // Example array
+
+// Loop through the array and print elements at odd positions
+for (let i = 1; i < elements.length; i += 2) {
+    console.log("Element at odd index " + i + ": " + elements[i]);
+}
+
+//cross product
+var a=[10,20,30,40,50];
+var b=[2,3,1,4,5];
+var y=4;
+for(x=0;x<5;x++){
+    console.log(a[x]*b[y--])
+}
+
+//sum of both array
+let array1 = [1, 2, 3, 4]; 
+let array2 = [5, 6, 7, 8]; 
+let sumArray = [];         
+
+
+for (let i = 0; i < array1.length; i++) {
+    sumArray[i] = array1[i] + array2[i]; 
+}
+
+console.log("Sum of the two arrays: ", sumArray); 
+
+//common elements
+let arr1 = [1, 2, 3, 4, 5];
+let arr2 = [4, 5, 6, 7, 8];
+let commonElements = [];       
+
+for (let i = 0; i < array1.length; i++) {
+    if (array2.includes(array1[i])) {
+        commonElements.push(array1[i]);
+    }
+}
+
+console.log("Common elements: ", commonElements); 
+
+//merged array
+let a = [1, 2, 3, 4, 5]; 
+let b = [6, 7, 8, 9, 10]; 
+
+let merged = [];
+
+for (let i = 0; i < a.length; i++) {
+    merged.push(a[i]);
+}
+
+for (let i = 0; i < b.length; i++) {
+    merged.push(b[i]); 
+}
+
+console.log("Merged array: ", merged);
+</body>
+</html>
